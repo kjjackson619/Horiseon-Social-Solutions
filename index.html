@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Horiseon Social Solution Services, Inc.</title>
-</head>
+  </head>
 <!-- start webpage body -->
-<body>
-    <div class="header">
+  <body>
+    <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
+         <nav>
             <!-- Unordered list element -->
-            <ul>
+              <ul>
+                <!-- anchored items -->  
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
@@ -22,21 +23,22 @@
                 <li>
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
-            </ul>
+              </ul>
+         </nav>
         </div>
-    </div>
+    </header>
+    <!-- insert images section -->
     <div class="hero"></div>
-    <!-- insert images here -->
-    <div class="content">
-        <div class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" alt="Organized desk space perfect for planning with a laptop, notebook, and coffee to get the day started" class="float-left" />
+      <div class="content">
+        <div id="search-engine-optimization" class="search-engine-optimization">
+            <img src="./assets/images/search-engine-optimization.jpg" alt="An organized desk space perfect for planning with a laptop, notebook, and coffee to get the day started" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </div>
         <div id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" alt="A webpage on a laptop, with a graph displaying reputation increasing" class="float-right" />
+            <img src="./assets/images/online-reputation-management.jpg" alt="A webpage shown on a laptop with a graph displaying reputation increasing" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
@@ -49,7 +51,7 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </div>
-    </div>
+      </div>
     <div class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
@@ -75,12 +77,13 @@
     </div>
     <!-- end images section -->
     <!-- begin footer -->
-    <div class="footer">
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
+    <!-- end footer -->
 </body>
-
+<!-- end body -->
 </html>
