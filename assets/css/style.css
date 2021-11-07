@@ -1,13 +1,14 @@
-/*begin stylesheet */
+/* CSS stylesheet */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/* body section */ 
+/* Apply styles to body section */ 
 body {
     background-color: #d9dcd6;
 }
+/* Apply styles to header section */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,7 +41,9 @@ a {
 p {
     font-size: 16px;
 }
-/* hero/content section */ 
+/* end header */
+
+/* Apply styles to hero/content section */ 
 .hero {
     height: 800px;
     width: 100%;
@@ -98,7 +101,7 @@ p {
 }
 /* end hero/content section */
 
-/* footer section */
+/* Apply styles to footer section */
 .footer {
     padding: 30px;
     clear: both;
@@ -108,3 +111,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* end footer and body */
